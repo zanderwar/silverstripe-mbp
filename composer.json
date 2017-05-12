@@ -1,0 +1,25 @@
+{
+  "name": "zanderwar/silverstripe-boilerplate",
+  "description": "A boilerplate module structure",
+  "type": "silverstripe-module",
+  "keywords": ["silverstripe", "boiler", "module"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reece Alexander",
+      "email": "reece@steadlane.com.au"
+    }
+  ],
+  "require":
+  {
+    "php": ">=5.3.0",
+    "silverstripe/framework": "~3.1",
+    "silverstripe/cms": "~3.1"
+  },
+  "extra": {
+    "installer-name": "mbp",
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  }
+}
